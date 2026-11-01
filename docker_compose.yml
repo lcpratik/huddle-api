@@ -1,0 +1,7 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: huddle
+      POSTGRES_PASSWORD: huddle
+      POSTGRES_DB: huddle_dev
