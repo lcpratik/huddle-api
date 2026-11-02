@@ -5,7 +5,7 @@ services:
       POSTGRES_USER: huddle
       POSTGRES_PASSWORD: huddle
       POSTGRES_DB: huddle_dev
-       ports:
+       ports: 
       - "5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
@@ -13,4 +13,3 @@ services:
 volumes:
   pgdata:
 
-  
